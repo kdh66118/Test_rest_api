@@ -7,6 +7,8 @@ import org.springframework.jdbc.core.namedparam.EmptySqlParameterSource;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.jdbc.core.namedparam.SqlParameterSource;
+import org.springframework.jdbc.support.GeneratedKeyHolder;
+import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Repository;
 
 import com.example.demo.info.model.City;
@@ -45,6 +47,34 @@ public class CityRepository {
 				.addValue("population", population);
 
 		return namedParameterJdbcTemplate.query(qry, param, this.cityRowMapper);
+	}
+
+	public City insert(City city) {
+		KeyHolder keyHolder = new GeneratedKeyHolder();
+		SqlParameterSource parameterSource = new MapSqlParameterSource("name", city.getName())
+										.addValue("countryCode", city.getCountryCode())
+										.addValue("district", city.getDistrict())
+										.addValue("population", city.getPopulation());
+
+		int affectedRows = namedParameterJdbcTemplate.update(CitySql.INSERT, parameterSource, keyHolder);
+
+		log.debug("{} inserted, new id = {}", affectedRows, keyHolder.getKey());
+		city.setId(keyHolder.getKey().intValue());
+
+		return city;
+	}
+
+	public Integer updateById(City city) {
+		String qry = CitySql.UPDATE + CitySql.ID_CONDITION;
+
+		SqlParameterSource parameterSource = new MapSqlParameterSource("id", city.getId())
+												.addValue("name", city.getName())
+												.addValue("countryCode", city.getCountryCode())
+												.addValue("district", city.getDistrict())
+												.addValue("population", city.getPopulation());
+
+		return namedParameterJdbcTemplate.update(qry, parameterSource);
+
 	}
 
 }

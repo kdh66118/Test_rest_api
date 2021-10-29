@@ -42,4 +42,13 @@ public class InfoService {
 		return this.cityRepository.findByCountryCodeAndPopulation(countryCode, population);
 	}
 
+	public City insert(City city) {
+		return this.cityRepository.insert(city);
+	}
+
+	public Integer updateById(City city) {
+		log.debug("city id = {}", city.getId());
+		return cityRepository.updateById(city);
+	}
+
 }
