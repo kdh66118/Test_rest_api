@@ -26,4 +26,7 @@ class CitySql {
 	public static final String ID_CONDITION = """
 						AND ID = :id
 						""";
+	public static final String DELETE = """
+						DELETE FROM CITY WHERE 1=1
+						""";
 }

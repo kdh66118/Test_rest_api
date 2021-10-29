@@ -77,4 +77,9 @@ public class CityRepository {
 
 	}
 
+	public Integer deleteById(Integer id) {
+		SqlParameterSource parameterSource = new MapSqlParameterSource("id", id);
+
+		return namedParameterJdbcTemplate.update(CitySql.DELETE + CitySql.ID_CONDITION, parameterSource);
+	}
 }

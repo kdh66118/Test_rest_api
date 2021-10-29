@@ -51,4 +51,9 @@ public class InfoService {
 		return cityRepository.updateById(city);
 	}
 
+	public Integer deleteById(Integer id) {
+		log.debug("city id = {}", id);
+		return cityRepository.deleteById(id);
+	}
+
 }

@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.info.model.City;
@@ -120,6 +121,20 @@ public class InfoController {
 
 			return new ResponseEntity<>(String.format("%d updated", updatedCnt), HttpStatus.OK);
 		} catch (Exception e) {
+			log.error(e.toString());
+			return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+	}
+
+	@ResponseBody
+	@PostMapping(value="cityDelete")
+	public ResponseEntity<String> cityDelete(@RequestParam(value="id") Integer id){
+		try {
+			log.debug("city = {}", id);
+			Integer deletedCnt  = infoService.deleteById(id);
+
+			return new ResponseEntity<>(String.format("%d deleted", deletedCnt), HttpStatus.OK);
+			} catch (Exception e) {
 			log.error(e.toString());
 			return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
 		}
