@@ -2,6 +2,7 @@ package com.example.demo.info;
 
 import java.util.Date;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,17 +10,27 @@ import com.example.demo.info.model.Project;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 
+import lombok.extern.slf4j.Slf4j;
+
+
+@Slf4j
 @RestController
 public class InfoController {
 
+	private InfoService infoService;
+
+	@Autowired
+	public InfoController(InfoService infoService) {
+		this.infoService = infoService;
+	}
+
+
 	@GetMapping("/info")
 	public Object projectInfo() {
-//		return "Project name is noting.";
-		Project project = new Project();
-		project.projectName = "preword";
-		project.author = "hello-tom";
-		project.createdDate = new Date();
 
+
+//		return "Project name is noting.";
+		Project project = infoService.getProjectInfo();
 		return project;
 	}
 
