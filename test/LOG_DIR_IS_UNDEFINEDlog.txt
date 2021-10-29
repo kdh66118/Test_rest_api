@@ -1,0 +1,14 @@
+[INFO ] 12:55:49.863 com.example.demo.TestApplication - Starting TestApplication using Java 15.0.2 on DESKTOP-RS1NRPC with PID 8900 (C:\Users\TOM\git\Test_rest_api\test\bin\main started by TOM in C:\Users\TOM\git\Test_rest_api\test)
+[INFO ] 12:55:49.863 com.example.demo.TestApplication - No active profile set, falling back to default profiles: default
+[WARN ] 12:55:49.975 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+[INFO ] 12:55:50.002 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8989 (http)
+[INFO ] 12:55:50.003 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+[INFO ] 12:55:50.003 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 12:55:50.003 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+[INFO ] 12:55:50.013 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 12:55:50.013 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 149 ms
+[INFO ] 12:55:50.098 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 12:55:50.102 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+[INFO ] 12:55:50.104 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8989 (http) with context path ''
+[INFO ] 12:55:50.134 com.example.demo.TestApplication - Started TestApplication in 0.306 seconds (JVM running for 3195.672)
+[INFO ] 12:55:50.135 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged

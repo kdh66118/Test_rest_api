@@ -1,0 +1,293 @@
+[INFO ] 12:55:54.004 com.example.demo.TestApplication - Starting TestApplication using Java 15.0.2 on DESKTOP-RS1NRPC with PID 8900 (C:\Users\TOM\git\Test_rest_api\test\bin\main started by TOM in C:\Users\TOM\git\Test_rest_api\test)
+[INFO ] 12:55:54.004 com.example.demo.TestApplication - No active profile set, falling back to default profiles: default
+[WARN ] 12:55:54.116 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+[INFO ] 12:55:54.143 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8989 (http)
+[INFO ] 12:55:54.143 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+[INFO ] 12:55:54.144 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 12:55:54.144 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+[INFO ] 12:55:54.155 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 12:55:54.157 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 151 ms
+[INFO ] 12:55:54.535 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 12:55:54.542 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+[INFO ] 12:55:54.543 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8989 (http) with context path ''
+[INFO ] 12:55:54.579 com.example.demo.TestApplication - Started TestApplication in 0.601 seconds (JVM running for 3200.117)
+[INFO ] 12:55:54.580 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 12:56:05.748 com.example.demo.TestApplication - Starting TestApplication using Java 15.0.2 on DESKTOP-RS1NRPC with PID 8900 (C:\Users\TOM\git\Test_rest_api\test\bin\main started by TOM in C:\Users\TOM\git\Test_rest_api\test)
+[INFO ] 12:56:05.750 com.example.demo.TestApplication - No active profile set, falling back to default profiles: default
+[WARN ] 12:56:05.864 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+[INFO ] 12:56:05.896 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8989 (http)
+[INFO ] 12:56:05.896 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+[INFO ] 12:56:05.896 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 12:56:05.896 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+[INFO ] 12:56:05.912 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 12:56:05.912 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 162 ms
+[INFO ] 12:56:06.020 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 12:56:06.024 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+[INFO ] 12:56:06.025 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8989 (http) with context path ''
+[INFO ] 12:56:06.068 com.example.demo.TestApplication - Started TestApplication in 0.344 seconds (JVM running for 3211.605)
+[INFO ] 12:56:06.070 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 12:56:42.758 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 12:56:42.759 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 12:56:42.759 o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[INFO ] 14:08:20.313 com.example.demo.TestApplication - Starting TestApplication using Java 15.0.2 on DESKTOP-RS1NRPC with PID 8900 (C:\Users\TOM\git\Test_rest_api\test\bin\main started by TOM in C:\Users\TOM\git\Test_rest_api\test)
+[INFO ] 14:08:20.313 com.example.demo.TestApplication - No active profile set, falling back to default profiles: default
+[WARN ] 14:08:20.987 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+[INFO ] 14:08:21.016 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8989 (http)
+[INFO ] 14:08:21.017 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:08:21.017 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:08:21.017 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+[INFO ] 14:08:21.028 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:08:21.028 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 714 ms
+[INFO ] 14:08:21.400 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 14:08:21.405 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:08:21.406 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8989 (http) with context path ''
+[INFO ] 14:08:21.931 com.example.demo.TestApplication - Started TestApplication in 1.646 seconds (JVM running for 7547.468)
+[INFO ] 14:08:21.932 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 14:08:29.288 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 14:08:29.289 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 14:08:29.289 o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[INFO ] 14:08:37.520 com.example.demo.TestApplication - Starting TestApplication using Java 15.0.2 on DESKTOP-RS1NRPC with PID 5752 (C:\Users\TOM\git\Test_rest_api\test\bin\main started by TOM in C:\Users\TOM\git\Test_rest_api\test)
+[INFO ] 14:08:37.521 com.example.demo.TestApplication - No active profile set, falling back to default profiles: default
+[INFO ] 14:08:37.619 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 14:08:37.619 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 14:08:38.489 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8989 (http)
+[INFO ] 14:08:38.501 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:08:38.503 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:08:38.503 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+[INFO ] 14:08:38.559 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:08:38.559 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 940 ms
+[WARN ] 14:08:38.869 o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+[INFO ] 14:08:38.880 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+[WARN ] 14:08:38.882 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8989 is already in use
+[INFO ] 14:08:38.885 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:08:38.885 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 14:08:38.891 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:08:38.891 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8989"]
+[ERROR] 14:08:38.930 o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8989 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8989 or configure this application to listen on another port.
+
+[INFO ] 14:08:45.338 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 14:08:52.137 com.example.demo.TestApplication - Starting TestApplication using Java 15.0.2 on DESKTOP-RS1NRPC with PID 7464 (C:\Users\TOM\git\Test_rest_api\test\bin\main started by TOM in C:\Users\TOM\git\Test_rest_api\test)
+[INFO ] 14:08:52.138 com.example.demo.TestApplication - No active profile set, falling back to default profiles: default
+[INFO ] 14:08:52.251 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 14:08:52.251 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 14:08:53.040 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8989 (http)
+[INFO ] 14:08:53.048 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:08:53.049 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:08:53.049 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+[INFO ] 14:08:53.096 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:08:53.097 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 845 ms
+[INFO ] 14:08:53.406 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 14:08:53.416 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:08:53.427 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8989 (http) with context path ''
+[INFO ] 14:08:53.472 com.example.demo.TestApplication - Started TestApplication in 1.707 seconds (JVM running for 2.273)
+[INFO ] 14:08:56.030 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 14:08:56.030 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 14:08:56.031 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 14:09:05.409 com.example.demo.TestApplication - Starting TestApplication using Java 15.0.2 on DESKTOP-RS1NRPC with PID 7464 (C:\Users\TOM\git\Test_rest_api\test\bin\main started by TOM in C:\Users\TOM\git\Test_rest_api\test)
+[INFO ] 14:09:05.409 com.example.demo.TestApplication - No active profile set, falling back to default profiles: default
+[INFO ] 14:09:05.557 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8989 (http)
+[INFO ] 14:09:05.557 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:09:05.557 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:09:05.557 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+[INFO ] 14:09:05.569 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:09:05.569 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 159 ms
+[INFO ] 14:09:05.642 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 14:09:05.647 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:09:05.648 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8989 (http) with context path ''
+[INFO ] 14:09:05.671 com.example.demo.TestApplication - Started TestApplication in 0.289 seconds (JVM running for 14.472)
+[INFO ] 14:09:05.671 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 14:09:06.181 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 14:09:06.182 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 14:09:06.182 o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[INFO ] 14:10:03.777 com.example.demo.TestApplication - Starting TestApplication using Java 15.0.2 on DESKTOP-RS1NRPC with PID 7464 (C:\Users\TOM\git\Test_rest_api\test\bin\main started by TOM in C:\Users\TOM\git\Test_rest_api\test)
+[INFO ] 14:10:03.777 com.example.demo.TestApplication - No active profile set, falling back to default profiles: default
+[INFO ] 14:10:03.919 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8989 (http)
+[INFO ] 14:10:03.920 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:10:03.920 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:10:03.920 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+[INFO ] 14:10:03.932 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:10:03.932 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 153 ms
+[INFO ] 14:10:04.022 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 14:10:04.027 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:10:04.027 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8989 (http) with context path ''
+[INFO ] 14:10:04.060 com.example.demo.TestApplication - Started TestApplication in 0.306 seconds (JVM running for 72.861)
+[INFO ] 14:10:04.060 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 14:11:01.118 com.example.demo.TestApplication - Starting TestApplication using Java 15.0.2 on DESKTOP-RS1NRPC with PID 7464 (C:\Users\TOM\git\Test_rest_api\test\bin\main started by TOM in C:\Users\TOM\git\Test_rest_api\test)
+[INFO ] 14:11:01.118 com.example.demo.TestApplication - No active profile set, falling back to default profiles: default
+[INFO ] 14:11:01.271 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8989 (http)
+[INFO ] 14:11:01.273 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:11:01.273 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:11:01.273 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+[INFO ] 14:11:01.285 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:11:01.285 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 165 ms
+[INFO ] 14:11:01.365 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 14:11:01.370 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:11:01.371 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8989 (http) with context path ''
+[INFO ] 14:11:01.396 com.example.demo.TestApplication - Started TestApplication in 0.311 seconds (JVM running for 130.198)
+[INFO ] 14:11:01.396 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 14:11:26.267 com.example.demo.TestApplication - Starting TestApplication using Java 15.0.2 on DESKTOP-RS1NRPC with PID 7464 (C:\Users\TOM\git\Test_rest_api\test\bin\main started by TOM in C:\Users\TOM\git\Test_rest_api\test)
+[INFO ] 14:11:26.268 com.example.demo.TestApplication - No active profile set, falling back to default profiles: default
+[INFO ] 14:11:26.729 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8989 (http)
+[INFO ] 14:11:26.729 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:11:26.729 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:11:26.729 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+[INFO ] 14:11:26.742 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:11:26.743 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 474 ms
+[INFO ] 14:11:26.811 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 14:11:26.817 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:11:26.818 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8989 (http) with context path ''
+[INFO ] 14:11:26.849 com.example.demo.TestApplication - Started TestApplication in 0.603 seconds (JVM running for 155.65)
+[INFO ] 14:11:26.850 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 14:11:49.539 com.example.demo.TestApplication - Starting TestApplication using Java 15.0.2 on DESKTOP-RS1NRPC with PID 7464 (C:\Users\TOM\git\Test_rest_api\test\bin\main started by TOM in C:\Users\TOM\git\Test_rest_api\test)
+[INFO ] 14:11:49.540 com.example.demo.TestApplication - No active profile set, falling back to default profiles: default
+[INFO ] 14:11:49.666 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8989 (http)
+[INFO ] 14:11:49.668 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:11:49.668 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:11:49.668 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+[INFO ] 14:11:49.680 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:11:49.680 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 138 ms
+[INFO ] 14:11:49.741 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 14:11:49.746 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:11:49.746 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8989 (http) with context path ''
+[INFO ] 14:11:49.767 com.example.demo.TestApplication - Started TestApplication in 0.248 seconds (JVM running for 178.569)
+[INFO ] 14:11:49.768 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 14:13:54.084 com.example.demo.TestApplication - Starting TestApplication using Java 15.0.2 on DESKTOP-RS1NRPC with PID 7464 (C:\Users\TOM\git\Test_rest_api\test\bin\main started by TOM in C:\Users\TOM\git\Test_rest_api\test)
+[INFO ] 14:13:54.084 com.example.demo.TestApplication - No active profile set, falling back to default profiles: default
+[INFO ] 14:13:54.207 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8989 (http)
+[INFO ] 14:13:54.208 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:13:54.208 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:13:54.208 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+[INFO ] 14:13:54.219 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:13:54.220 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 135 ms
+[INFO ] 14:13:54.278 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 14:13:54.282 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:13:54.283 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8989 (http) with context path ''
+[INFO ] 14:13:54.305 com.example.demo.TestApplication - Started TestApplication in 0.241 seconds (JVM running for 303.106)
+[INFO ] 14:13:54.306 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 14:14:05.094 com.example.demo.TestApplication - Starting TestApplication using Java 15.0.2 on DESKTOP-RS1NRPC with PID 7464 (C:\Users\TOM\git\Test_rest_api\test\bin\main started by TOM in C:\Users\TOM\git\Test_rest_api\test)
+[INFO ] 14:14:05.095 com.example.demo.TestApplication - No active profile set, falling back to default profiles: default
+[INFO ] 14:14:05.222 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8989 (http)
+[INFO ] 14:14:05.222 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:14:05.223 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:14:05.224 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+[INFO ] 14:14:05.233 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:14:05.234 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 138 ms
+[INFO ] 14:14:05.295 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 14:14:05.298 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:14:05.299 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8989 (http) with context path ''
+[INFO ] 14:14:05.319 com.example.demo.TestApplication - Started TestApplication in 0.245 seconds (JVM running for 314.121)
+[INFO ] 14:14:05.319 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 14:14:20.380 com.example.demo.TestApplication - Starting TestApplication using Java 15.0.2 on DESKTOP-RS1NRPC with PID 7464 (C:\Users\TOM\git\Test_rest_api\test\bin\main started by TOM in C:\Users\TOM\git\Test_rest_api\test)
+[INFO ] 14:14:20.381 com.example.demo.TestApplication - No active profile set, falling back to default profiles: default
+[INFO ] 14:14:20.501 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8989 (http)
+[INFO ] 14:14:20.501 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:14:20.501 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:14:20.501 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+[INFO ] 14:14:20.511 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:14:20.511 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 129 ms
+[INFO ] 14:14:20.572 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 14:14:20.576 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:14:20.576 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8989 (http) with context path ''
+[INFO ] 14:14:20.594 com.example.demo.TestApplication - Started TestApplication in 0.233 seconds (JVM running for 329.396)
+[INFO ] 14:14:20.595 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 14:15:36.505 com.example.demo.TestApplication - Starting TestApplication using Java 15.0.2 on DESKTOP-RS1NRPC with PID 7464 (C:\Users\TOM\git\Test_rest_api\test\bin\main started by TOM in C:\Users\TOM\git\Test_rest_api\test)
+[INFO ] 14:15:36.506 com.example.demo.TestApplication - No active profile set, falling back to default profiles: default
+[INFO ] 14:15:36.647 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8989 (http)
+[INFO ] 14:15:36.648 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:15:36.648 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:15:36.648 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+[INFO ] 14:15:36.658 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:15:36.659 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 152 ms
+[WARN ] 14:15:36.664 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityRepository': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.example.demo.info.repository.CityRepository] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@23fc985]
+[INFO ] 14:15:36.664 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[ERROR] 14:15:36.696 o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityRepository': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.example.demo.info.repository.CityRepository] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@23fc985]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.example.demo.TestApplication.main(TestApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.demo.info.repository.CityRepository] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@23fc985]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: List
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3325)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2466)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: List
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 29 common frames omitted
+[INFO ] 14:18:14.878 com.example.demo.TestApplication - Starting TestApplication using Java 15.0.2 on DESKTOP-RS1NRPC with PID 7464 (C:\Users\TOM\git\Test_rest_api\test\bin\main started by TOM in C:\Users\TOM\git\Test_rest_api\test)
+[INFO ] 14:18:14.878 com.example.demo.TestApplication - No active profile set, falling back to default profiles: default
+[INFO ] 14:18:14.999 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8989 (http)
+[INFO ] 14:18:15.000 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:18:15.001 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:18:15.001 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+[INFO ] 14:18:15.010 o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:18:15.010 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 131 ms
+[INFO ] 14:18:15.091 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 14:18:15.095 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:18:15.096 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8989 (http) with context path ''
+[INFO ] 14:18:15.119 com.example.demo.TestApplication - Started TestApplication in 0.261 seconds (JVM running for 563.921)
+[INFO ] 14:18:15.119 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 14:20:58.365 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 14:34:59.446 com.example.demo.TestApplication - Starting TestApplication using Java 15.0.2 on DESKTOP-RS1NRPC with PID 6200 (C:\Users\TOM\git\Test_rest_api\test\bin\main started by TOM in C:\Users\TOM\git\Test_rest_api\test)
+[INFO ] 14:34:59.447 com.example.demo.TestApplication - No active profile set, falling back to default profiles: default
+[INFO ] 14:34:59.484 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 14:34:59.484 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 14:35:00.377 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8989 (http)
+[INFO ] 14:35:00.386 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:35:00.386 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:35:00.386 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+[INFO ] 14:35:00.437 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:35:00.437 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 953 ms
+[INFO ] 14:35:00.822 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 14:35:00.840 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+[INFO ] 14:35:00.852 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8989 (http) with context path ''
+[INFO ] 14:35:00.898 com.example.demo.TestApplication - Started TestApplication in 1.797 seconds (JVM running for 2.761)
+[INFO ] 14:35:04.029 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 14:35:04.029 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 14:35:04.030 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 14:35:13.550 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 14:35:13.807 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
