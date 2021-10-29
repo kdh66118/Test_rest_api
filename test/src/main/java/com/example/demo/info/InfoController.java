@@ -4,7 +4,12 @@ import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Required;
+import org.springframework.boot.context.properties.bind.DefaultValue;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.info.model.City;
@@ -17,6 +22,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @RestController
+@RequestMapping("info")
 public class InfoController {
 
 	private InfoService infoService;
@@ -26,7 +32,7 @@ public class InfoController {
 		this.infoService = infoService;
 	}
 
-	@GetMapping("/info")
+	@GetMapping("Project")
 	public Object projectInfo() {
 		log.debug("/info start");
 
@@ -35,7 +41,7 @@ public class InfoController {
 		return project;
 	}
 
-	@GetMapping("/info2")
+	@GetMapping("custom")
 	public String customJson() {
 		JsonObject jo = new JsonObject();
 
@@ -57,13 +63,24 @@ public class InfoController {
 	}
 
 
-	@GetMapping("/cityList")
+	@GetMapping("cityList")
 	public Object cityList() {
 		log.debug("/cityList start");
 
 		List<City> cityList = infoService.getCityList();
 
 		return cityList;
-
 	}
+
+	@GetMapping("cityListByCode")
+	public Object cityByCountryCode(@RequestParam("countryCode") String ctCode,
+			@RequestParam( value = "population", required = false, defaultValue = "0") int population) {
+
+		log.debug("countryCode = {}, population {}", ctCode, population);
+
+		List<City> cityList = infoService.findCityByCodeAndPopulation(ctCode, population);
+
+		return cityList;
+	}
+
 }
